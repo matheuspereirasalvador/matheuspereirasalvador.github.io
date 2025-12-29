@@ -24,7 +24,7 @@ projects:
       Utiliza o padrão Page Object Model (POM) para validar fluxos de compra, login e carrinho.
     links:
       - title: Ver no GitHub
-        url: https://github.com/matheuspereirasalvador/qa-web-automation
+        url: https://github.com/matheuspereirasalvador/qa-saucedemo
 
   - title: API Testing - Restful Booker 🔌
     image: images/api-testing.png
