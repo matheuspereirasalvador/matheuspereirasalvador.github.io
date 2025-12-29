@@ -1,11 +1,12 @@
 title: Matheus Pereira Salvador
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  QA Analyst
-  <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/matheuspereirasalvador/">View My LinkedIn Profile</a> 
+description: >
+  QA Analyst focado em Automação e Qualidade de Software. 
+  Especialista em Python, Selenium e API Testing.
+  Transformando requisitos em software confiável.
+
+github_username: matheuspereirasalvador
+linkedin_username: matheuspereirasalvador
+email: seu-email@exemplo.com
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
