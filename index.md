@@ -1,33 +1,9 @@
-## Portfolio
-
+---
+layout: default
 ---
 
-### Category Name 1 
+# Bem-vindo ao meu Portfólio! 🎯
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+Aqui você encontra meus projetos práticos focados em **Qualidade de Software**, cobrindo desde automação Web e API até processos de QA Ágil.
 
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-
-
-
----
+Sinta-se à vontade para explorar os repositórios e ver o código na prática.
