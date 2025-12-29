@@ -1,9 +1,11 @@
 title: Matheus Pereira Salvador
+logo: "/images/logo.png?raw=true"
 description: >
   QA Analyst focado em Automação e Qualidade de Software. 
   Especialista em Python, Selenium e API Testing.
   Transformando requisitos em software confiável.
 
+# Links Sociais (Preencha com os seus usuários)
 github_username: matheuspereirasalvador
 linkedin_username: matheuspereirasalvador
 email: seu-email@exemplo.com
