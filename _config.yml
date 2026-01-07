@@ -5,7 +5,6 @@ description: >
   Especialista em Python, Selenium e API Testing.
   Transformando requisitos em software confiável.
 
-# Links Sociais
 github_username: matheuspereirasalvador
 linkedin_username: matheuspereirasalvador
 email: matheuspereirasalvador14@gmail.com
@@ -15,10 +14,8 @@ plugins:
 - jekyll-remote-theme
 google_analytics: UA-000000-0 
 
-# --- AQUI COMEÇA A LISTA DE PROJETOS ---
 projects:
-  - title: Web Automation - SauceDemo 🐍
-    image: images/web-automation.png
+  - title: Automação Web - SauceDemo
     description: >
       Framework de testes E2E desenvolvido em Python com Selenium WebDriver.
       Utiliza o padrão Page Object Model (POM) para validar fluxos de compra, login e carrinho.
@@ -26,8 +23,7 @@ projects:
       - title: Ver no GitHub
         url: https://github.com/matheuspereirasalvador/qa-saucedemo
 
-  - title: API Testing - Restful Booker 🔌
-    image: images/api-testing.png
+  - title: Teste de API - Restful Booker
     description: >
       Automação de API REST completa (CRUD) utilizando Python, Requests e Pytest.
       Inclui autenticação por Token, validação de contratos e Pipeline de CI/CD no GitHub Actions.
@@ -35,11 +31,18 @@ projects:
       - title: Ver no GitHub
         url: https://github.com/matheuspereirasalvador/qa-api-booking
 
-  - title: QA Manual & Processos 📝
-    image: images/manual-testing.png
+  - title: Teste Manual - SauceDemo
     description: >
       Documentação completa do ciclo de vida de testes (STLC).
       Inclui Plano de Testes, Casos de Teste (BDD), Bug Reports técnicos e Matriz de Rastreabilidade.
     links:
       - title: Ver no GitHub
         url: https://github.com/matheuspereirasalvador/qa-saucedemo-manual
+
+  - title: Teste manual e automação com usuário problemático - SauceDemo
+    description: >
+      Documentação completa do ciclo de vida de testes (STLC).
+      Inclui Plano de Testes, Casos de Teste (BDD), Bug Reports técnicos e Matriz de Rastreabilidade.
+    links:
+      - title: Ver no GitHub
+        url: https://github.com/matheuspereirasalvador/swaglabs-cypress-automation.git
