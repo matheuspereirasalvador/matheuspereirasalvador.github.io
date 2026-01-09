@@ -15,7 +15,7 @@ plugins:
 google_analytics: UA-000000-0 
 
 projects:
-  - title: Automação Web - SauceDemo
+  - title: Automação Web - SauceDemo (Python)
     description: >
       Framework de testes E2E desenvolvido em Python com Selenium WebDriver.
       Utiliza o padrão Page Object Model (POM) para validar fluxos de compra, login e carrinho.
@@ -39,10 +39,11 @@ projects:
       - title: Ver no GitHub
         url: https://github.com/matheuspereirasalvador/qa-saucedemo-manual
 
-  - title: Teste manual e automação com usuário problemático - SauceDemo
+  - title: Automação Web - SauceDemo (Cypress)
     description: >
-      Documentação completa do ciclo de vida de testes (STLC).
-      Inclui Plano de Testes, Casos de Teste (BDD), Bug Reports técnicos e Matriz de Rastreabilidade.
+      Evolução do plano de testes manual para scripts automatizados com Cypress. 
+      Cobre o ciclo completo de compra (do Login ao Checkout), garantindo resiliência contra falhas de API e interface. 
+      Utiliza boas práticas como isolamento de testes (beforeEach) e validação de elementos dinâmicos.
     links:
       - title: Ver no GitHub
         url: https://github.com/matheuspereirasalvador/swaglabs-cypress-automation.git
