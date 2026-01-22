@@ -26,8 +26,8 @@ projects:
 
     - title: Análise completa - OrangeHRM
     description: >
-     Abrange todas as etapas do STLC, incluindo análise de requisitos, documentação, testes manuais, automação E2E, 
-     API, BDD e testes de performance, com foco em qualidade, rastreabilidade e boas práticas de mercado.
+      Abrange todas as etapas do STLC, incluindo análise de requisitos, documentação, testes manuais, automação E2E, 
+      API, BDD e testes de performance, com foco em qualidade, rastreabilidade e boas práticas de mercado.
     links:
       - title: Ver no GitHub
         url: https://github.com/matheuspereirasalvador/qa-orangeHRM
