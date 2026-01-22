@@ -1,33 +1,18 @@
-title: Matheus Pereira Salvador
-avatar: images/perfil.jpg
-description: >
-  Analista de QA focado em Automação e Qualidade de Software. 
-  Especialista em JavaScript, Cypress e API Testing.
-  Transformando requisitos em software confiável.
-
-github_username: matheuspereirasalvador
-linkedin_username: matheuspereirasalvador
-email: matheuspereirasalvador14@gmail.com
-
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme
-google_analytics: UA-000000-0 
-
 projects:
   - title: Automação Web - SauceDemo (Cypress)
     description: >
       Evolução do plano de testes manual para scripts automatizados com Cypress. 
-      Cobre o ciclo completo de compra (do Login ao Checkout), garantindo resiliência contra falhas de API e interface. 
-      Utiliza boas práticas como isolamento de testes (beforeEach) e validação de elementos dinâmicos.
+      Cobre o ciclo completo de compra, garantindo resiliência contra falhas de API e interface. 
+      Utiliza boas práticas como isolamento de testes e validação de elementos dinâmicos.
     links:
       - title: Ver no GitHub
         url: https://github.com/matheuspereirasalvador/swaglabs-cypress-automation.git
 
-  - title: Análise completa - OrangeHRM
+  - title: Teste Completo - OrangeHRM
     description: >
-      Abrange todas as etapas do STLC, incluindo análise de requisitos, documentação, testes manuais, automação E2E, 
-      API, BDD e testes de performance, com foco em qualidade, rastreabilidade e boas práticas de mercado.
+      Automação completa com Cypress cobrindo todo o STLC (E2E, API e BDD).
+      Inclui testes de performance com k6, pipelines de CI/CD no GitHub Actions e Azure Pipelines,
+      além de gestão de testes utilizando Jira e Xray.
     links:
       - title: Ver no GitHub
         url: https://github.com/matheuspereirasalvador/qa-orangeHRM
@@ -43,7 +28,7 @@ projects:
   - title: Teste de API - Restful Booker
     description: >
       Automação de API REST completa (CRUD) utilizando Python, Requests e Pytest.
-      Inclui autenticação por Token, validação de contratos e Pipeline de CI/CD no GitHub Actions.
+      Inclui autenticação por Token, validação de contratos e Pipeline de CI/CD.
     links:
       - title: Ver no GitHub
         url: https://github.com/matheuspereirasalvador/qa-api-booking
