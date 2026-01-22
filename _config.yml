@@ -1,4 +1,12 @@
 projects:
+  - title: Teste Completo - OrangeHRM
+    description: >
+      Automação completa com Cypress cobrindo todo o STLC (E2E, API e BDD).
+      Inclui testes de performance com k6, pipelines de CI/CD no GitHub Actions e Azure Pipelines,
+      além de gestão de testes utilizando Jira e Xray.
+    links:
+      - title: Ver no GitHub
+        url: https://github.com/matheuspereirasalvador/qa-orangeHRM
   - title: Automação Web - SauceDemo (Cypress)
     description: >
       Evolução do plano de testes manual para scripts automatizados com Cypress. 
@@ -8,14 +16,6 @@ projects:
       - title: Ver no GitHub
         url: https://github.com/matheuspereirasalvador/swaglabs-cypress-automation.git
 
-  - title: Teste Completo - OrangeHRM
-    description: >
-      Automação completa com Cypress cobrindo todo o STLC (E2E, API e BDD).
-      Inclui testes de performance com k6, pipelines de CI/CD no GitHub Actions e Azure Pipelines,
-      além de gestão de testes utilizando Jira e Xray.
-    links:
-      - title: Ver no GitHub
-        url: https://github.com/matheuspereirasalvador/qa-orangeHRM
 
   - title: Automação Web - SauceDemo (Python)
     description: >
