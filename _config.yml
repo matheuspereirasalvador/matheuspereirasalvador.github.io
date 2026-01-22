@@ -24,7 +24,7 @@ projects:
       - title: Ver no GitHub
         url: https://github.com/matheuspereirasalvador/swaglabs-cypress-automation.git
 
-      - title: Análise completa - OrangeHRM
+  - title: Análise completa - OrangeHRM
     description: >
       Abrange todas as etapas do STLC, incluindo análise de requisitos, documentação, testes manuais, automação E2E, 
       API, BDD e testes de performance, com foco em qualidade, rastreabilidade e boas práticas de mercado.
@@ -55,4 +55,3 @@ projects:
     links:
       - title: Ver no GitHub
         url: https://github.com/matheuspereirasalvador/qa-saucedemo-manual
-
