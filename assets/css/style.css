@@ -1,13 +1,13 @@
 :root {
-  --bg: #f1eee7;
-  --surface: #faf8f3;
+  --bg: #f5f5f5;
+  --surface: #ffffff;
   --ink: #1d1e1b;
   --muted: #666861;
-  --line: #c9c6bd;
+  --line: #d1d1cd;
   --accent: #bd4b36;
   --accent-dark: #883020;
   --dark: #242824;
-  --soft: #e2e3dc;
+  --soft: #efefec;
   --header-height: 72px;
 }
 
@@ -337,22 +337,6 @@ button {
 .about-copy p:not(.lead) {
   max-width: 720px;
   color: var(--muted);
-}
-
-.personal-notes {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.personal-notes span {
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--line);
-  font-size: 0.88rem;
-  font-weight: 650;
 }
 
 .career-section,
@@ -730,10 +714,6 @@ button {
   .credentials-layout {
     grid-template-columns: 1fr;
     gap: 48px;
-  }
-
-  .personal-notes {
-    max-width: 520px;
   }
 
   .ctfl-note {
