@@ -365,6 +365,22 @@ button {
   font-weight: 650;
 }
 
+.career-aside {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.career-logo {
+  width: 64px;
+  height: 64px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  object-fit: cover;
+}
+
 .career-content h3,
 .stack-row h3,
 .credential-row h3,
@@ -777,6 +793,18 @@ button {
   .career-row {
     grid-template-columns: 1fr;
     gap: 12px;
+  }
+
+  .career-aside {
+    align-items: center;
+    flex-direction: row;
+    gap: 14px;
+    margin-bottom: 8px;
+  }
+
+  .career-logo {
+    width: 52px;
+    height: 52px;
   }
 
   .career-tools {
