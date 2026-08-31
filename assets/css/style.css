@@ -194,9 +194,9 @@ button {
 .project-type,
 .credential-date {
   color: var(--accent);
-  font-size: 0.84rem;
+  font-size: 0.78rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
@@ -302,7 +302,7 @@ button {
 
 .section-intro {
   max-width: none;
-  margin-bottom: 56px;
+  margin-bottom: 40px;
 }
 
 .section-intro-row {
@@ -310,7 +310,7 @@ button {
   grid-template-columns: 1fr;
   gap: 18px;
   align-items: start;
-  margin-bottom: 56px;
+  margin-bottom: 40px;
 }
 
 .section-intro-row .section-intro {
@@ -340,8 +340,12 @@ button {
 .about-layout {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 28px;
+  gap: 20px;
   padding-top: 0;
+}
+
+.about-section .section-intro {
+  margin-bottom: 0;
 }
 
 .about-copy p:not(.lead) {
@@ -415,14 +419,27 @@ button {
 
 .career-tools {
   grid-column: 2;
+  display: flex;
   width: 100%;
-  padding: 12px 16px;
-  border-radius: 7px;
-  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 4px 0 0;
+  background: transparent;
   color: var(--ink);
-  font-size: 0.96rem;
-  font-weight: 600;
-  text-align: center;
+}
+
+.career-tool {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 6px 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .project-grid {
@@ -802,7 +819,7 @@ button {
   }
 
   .about-layout {
-    gap: 38px;
+    gap: 20px;
   }
 
   .career-row {
