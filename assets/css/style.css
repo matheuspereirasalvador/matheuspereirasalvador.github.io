@@ -213,6 +213,7 @@ button {
 
 .hero h1 em {
   color: var(--accent);
+  font-style: normal;
   font-weight: 700;
 }
 
