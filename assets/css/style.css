@@ -179,10 +179,46 @@ button {
 
 .hero {
   display: grid;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   min-height: auto;
   padding-top: calc(var(--header-height) + 96px);
   padding-bottom: 48px;
   align-items: center;
+}
+
+.hero::before,
+.hero::after {
+  position: absolute;
+  z-index: -1;
+  width: 34rem;
+  height: 34rem;
+  border-radius: 50%;
+  content: "";
+  pointer-events: none;
+  filter: blur(22px);
+  opacity: 0.35;
+  animation: bokeh-drift 28s ease-in-out infinite alternate;
+}
+
+.hero::before {
+  top: -16rem;
+  right: 8%;
+  background: radial-gradient(circle at 35% 40%, color-mix(in srgb, var(--accent) 13%, transparent) 0 9%, transparent 28%), radial-gradient(circle at 70% 65%, color-mix(in srgb, var(--ink) 7%, transparent) 0 6%, transparent 24%);
+}
+
+.hero::after {
+  bottom: -20rem;
+  left: 4%;
+  background: radial-gradient(circle at 45% 45%, color-mix(in srgb, var(--accent) 9%, transparent) 0 8%, transparent 26%), radial-gradient(circle at 75% 35%, color-mix(in srgb, var(--ink) 6%, transparent) 0 5%, transparent 21%);
+  animation-delay: -13s;
+}
+
+@keyframes bokeh-drift {
+  0% { transform: translate3d(-2%, -1%, 0) scale(0.96); }
+  47% { transform: translate3d(4%, 3%, 0) scale(1.04); }
+  100% { transform: translate3d(-3%, 5%, 0) scale(1); }
 }
 
 .hero-inner {
@@ -247,7 +283,7 @@ button {
   border-radius: 7px;
   background: var(--accent);
   color: #fffaf4;
-  box-shadow: 0 7px 18px color-mix(in srgb, var(--accent) 24%, transparent);
+  box-shadow: none;
   font-size: 0.9rem;
   font-weight: 700;
   transition: background 180ms ease, box-shadow 180ms ease, transform 180ms ease;
@@ -255,7 +291,7 @@ button {
 
 .button:hover {
   background: var(--accent-dark);
-  box-shadow: 0 9px 22px color-mix(in srgb, var(--accent) 30%, transparent);
+  box-shadow: none;
   transform: translateY(-2px);
 }
 
@@ -282,12 +318,12 @@ button {
   padding: 0 16px;
   border-radius: 7px;
   background: var(--surface);
-  box-shadow: 0 4px 14px color-mix(in srgb, var(--ink) 9%, transparent);
-  transition: color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+  box-shadow: none;
+  transition: color 180ms ease, transform 180ms ease;
 }
 
 .text-link:hover {
-  box-shadow: 0 7px 18px color-mix(in srgb, var(--ink) 13%, transparent);
+  box-shadow: none;
   transform: translateY(-2px);
 }
 
@@ -422,7 +458,7 @@ button {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 8px;
   padding: 4px 0 0;
   background: transparent;
