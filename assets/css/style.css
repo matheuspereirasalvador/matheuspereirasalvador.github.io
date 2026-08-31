@@ -181,7 +181,7 @@ button {
   display: grid;
   min-height: auto;
   padding-top: calc(var(--header-height) + 96px);
-  padding-bottom: 96px;
+  padding-bottom: 48px;
   align-items: center;
 }
 
@@ -276,6 +276,10 @@ button {
 .section {
   padding: 116px 0;
   scroll-margin-top: var(--header-height);
+}
+
+.about-section {
+  padding-top: 72px;
 }
 
 .section-intro {
@@ -757,7 +761,7 @@ button {
   .hero {
     min-height: auto;
     padding-top: 124px;
-    padding-bottom: 64px;
+    padding-bottom: 36px;
   }
 
   .hero h1 {
@@ -780,6 +784,10 @@ button {
   .section,
   .education-section {
     padding: 84px 0;
+  }
+
+  .about-section {
+    padding-top: 56px;
   }
 
   .about-layout {
