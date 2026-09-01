@@ -327,6 +327,13 @@ button {
   transform: translateY(-2px);
 }
 
+.social-icon-link {
+  width: 50px;
+  padding: 0;
+  justify-content: center;
+  font-size: 1.35rem;
+}
+
 .section {
   padding: 116px 0;
   scroll-margin-top: var(--header-height);
@@ -708,6 +715,11 @@ button {
   gap: 18px;
 }
 
+.footer-social {
+  flex-direction: row;
+  gap: 16px;
+}
+
 .footer-contact a,
 .footer-social a {
   color: #d5d4ce;
@@ -718,6 +730,13 @@ button {
 .footer-contact a:hover,
 .footer-social a:hover {
   color: #fff;
+}
+
+.footer-social .social-icon-link {
+  width: auto;
+  min-height: 0;
+  padding: 0;
+  font-size: 1.35rem;
 }
 
 .footer-bottom {
