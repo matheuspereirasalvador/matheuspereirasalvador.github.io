@@ -322,13 +322,6 @@ button {
   transition: color 180ms ease, transform 180ms ease;
 }
 
-.social-icon-link {
-  width: 50px;
-  padding: 0;
-  justify-content: center;
-  font-size: 1.35rem;
-}
-
 .text-link:hover {
   box-shadow: none;
   transform: translateY(-2px);
@@ -715,11 +708,6 @@ button {
   gap: 18px;
 }
 
-.footer-social {
-  flex-direction: row;
-  gap: 16px;
-}
-
 .footer-contact a,
 .footer-social a {
   color: #d5d4ce;
@@ -730,13 +718,6 @@ button {
 .footer-contact a:hover,
 .footer-social a:hover {
   color: #fff;
-}
-
-.footer-social .social-icon-link {
-  width: auto;
-  min-height: 0;
-  padding: 0;
-  font-size: 1.35rem;
 }
 
 .footer-bottom {
